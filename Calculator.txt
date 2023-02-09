@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .calculator {
+        width: 400px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 20px;
+        font-family: Arial, sans-serif;
+      }
+
+      .calculator input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        font-size: 20px;
+        text-align: right;
+        border: none;
+        background-color: #ddd;
+        margin-bottom: 20px;
+      }
+
+      .calculator button {
+        padding: 10px 20px;
+        border: none;
+        background-color: #333;
+        color: #fff;
+        margin-bottom: 10px;
+        cursor: pointer;
+      }
+
+      .calculator button:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" id="display" disabled />
+      <br />
+      <button id="clear">C</button>
+      <button id="divide">/</button>
+      <button id="multiply">x</button>
+      <br />
+      <button id="seven">7</button>
+      <button id="eight">8</button>
+      <button id="nine">9</button>
+      <button id="subtract">-</button>
+      <br />
+      <button id="four">4</button>
+      <button id="five">5</button>
+      <button id="six">6</button>
+      <button id="add">+</button>
+      <br />
+      <button id="one">1</button>
+      <button id="two">2</button>
+      <button id="three">3</button>
+      <button id="equals">=</button>
+      <br />
+      <button id="zero">0</button>
+      <button id="decimal">.</button>
+    </div>
+
+    <script>
+      const display = document.getElementById("display");
+      const clear = document.getElementById("clear");
+      const divide = document.getElementById("divide");
+      const multiply = document.getElementById("multiply");
+      const seven = document.getElementById("seven");
+      const eight = document.getElementById("eight");
+      const nine = document.getElementById("nine");
+      const subtract = document.getElementById("subtract");
+      const four = document.getElementById("four");
+      const five = document.getElementById("five");
+      const six = document.getElementById("six");
+      const add = document.getElementById("add");
+      const one = document.getElementById("one");
+      const two = document.getElementById("two");
+      const three = document.getElementById("three");
+      const equals = document.getElementById("
